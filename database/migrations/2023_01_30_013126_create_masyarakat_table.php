@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('username', 25)->unique();
             $table->string('password');
             $table->string('telp', 13);
+            
             $table->timestamps();
         });
     }

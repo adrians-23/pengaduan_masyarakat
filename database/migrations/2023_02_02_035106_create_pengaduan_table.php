@@ -23,6 +23,7 @@ return new class extends Migration
 
             $table->timestamps();
 
+            // membuat foreign key
             $table->foreign('fk_nik')->references('nik')->on('masyarakat');
         });
     }
